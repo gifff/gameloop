@@ -56,7 +56,7 @@ void Demo::DrawPlayerSprite() {
 void Demo::BuildPlayerSprite()
 {
 
-	this->program = BuildShader("/Users/gifarydhimas/Documents/Semester_6/PG/GameLoop/gameloop/lesson02b/sprite.vert", "/Users/gifarydhimas/Documents/Semester_6/PG/GameLoop/gameloop/lesson02b/sprite.frag", nullptr);
+	this->program = BuildShader("sprite.vert", "sprite.frag", nullptr);
 
 	// Load and create a texture 
 	glGenTextures(1, &texture);
@@ -68,7 +68,7 @@ void Demo::BuildPlayerSprite()
 	// Load, create texture and generate mipmaps
     int width, height;
     
-    char* fileName = "/Users/gifarydhimas/Documents/Semester_6/PG/GameLoop/gameloop/lesson02b/homeranim.png";
+    char* fileName = "homeranim.png";
     
 
 //    unsigned char* image = SOIL_load_image("homeranim.png", &width, &height, 0, SOIL_LOAD_RGBA);
