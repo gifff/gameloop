@@ -21,6 +21,22 @@
 		4AA7D0C9224C507F004B731C /* homeranim.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A0562C222252720005FBB1A /* homeranim.png */; };
 		4AA7D0CA224C507F004B731C /* sprite.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A0562C422252720005FBB1A /* sprite.frag */; };
 		4AA7D0CB224C507F004B731C /* sprite.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A0562C022252720005FBB1A /* sprite.vert */; };
+		4AA7D0CC224C51F5004B731C /* homeranim.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC54222E52B50006A9DF /* homeranim.png */; };
+		4AA7D0CD224C51F5004B731C /* spriteAnim.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC51222E52B40006A9DF /* spriteAnim.frag */; };
+		4AA7D0CE224C51F5004B731C /* spriteAnim.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC52222E52B40006A9DF /* spriteAnim.vert */; };
+		4AA7D0CF224C51F5004B731C /* sprite.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC61222E5E7C0006A9DF /* sprite.png */; };
+		4AA7D0D0224C528D004B731C /* homeranim.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC76222E648C0006A9DF /* homeranim.png */; };
+		4AA7D0D1224C528D004B731C /* spriteAnim.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC78222E648D0006A9DF /* spriteAnim.frag */; };
+		4AA7D0D2224C528D004B731C /* spriteAnim.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC75222E648B0006A9DF /* spriteAnim.vert */; };
+		4AA7D0D3224C52FE004B731C /* homeranim.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC93222EA9470006A9DF /* homeranim.png */; };
+		4AA7D0D4224C52FE004B731C /* spriteAnim.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC92222EA9460006A9DF /* spriteAnim.frag */; };
+		4AA7D0D5224C52FE004B731C /* spriteAnim.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AF4FC8F222EA9450006A9DF /* spriteAnim.vert */; };
+		4AA7D0D6224C5395004B731C /* crate.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AAB7D1F2249FFC600C4AB77 /* crate.png */; };
+		4AA7D0D7224C5395004B731C /* crateSprite.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AAB7D232249FFC600C4AB77 /* crateSprite.frag */; };
+		4AA7D0D8224C5395004B731C /* crateSprite.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AAB7D1D2249FFC500C4AB77 /* crateSprite.vert */; };
+		4AA7D0D9224C5395004B731C /* homeranim.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AAB7D1E2249FFC500C4AB77 /* homeranim.png */; };
+		4AA7D0DA224C5395004B731C /* playerSprite.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AAB7D1B2249FFC400C4AB77 /* playerSprite.frag */; };
+		4AA7D0DB224C5395004B731C /* playerSprite.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AAB7D1C2249FFC500C4AB77 /* playerSprite.vert */; };
 		4AAB7D252249FFC600C4AB77 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB7D222249FFC600C4AB77 /* Game.cpp */; };
 		4AAB7D262249FFC600C4AB77 /* Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB7D242249FFC600C4AB77 /* Demo.cpp */; };
 		4AAB7D272249FFEE00C4AB77 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8856512203466C0079E904 /* OpenGL.framework */; };
@@ -71,39 +87,55 @@
 		};
 		4AAB7D122249FF9600C4AB77 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
-			dstSubfolderSpec = 6;
+			dstSubfolderSpec = 7;
 			files = (
+				4AA7D0D6224C5395004B731C /* crate.png in CopyFiles */,
+				4AA7D0D7224C5395004B731C /* crateSprite.frag in CopyFiles */,
+				4AA7D0D8224C5395004B731C /* crateSprite.vert in CopyFiles */,
+				4AA7D0D9224C5395004B731C /* homeranim.png in CopyFiles */,
+				4AA7D0DA224C5395004B731C /* playerSprite.frag in CopyFiles */,
+				4AA7D0DB224C5395004B731C /* playerSprite.vert in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4AF4FC45222E520E0006A9DF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				4AA7D0CC224C51F5004B731C /* homeranim.png in CopyFiles */,
+				4AA7D0CD224C51F5004B731C /* spriteAnim.frag in CopyFiles */,
+				4AA7D0CE224C51F5004B731C /* spriteAnim.vert in CopyFiles */,
+				4AA7D0CF224C51F5004B731C /* sprite.png in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4AF4FC64222E62510006A9DF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				4AA7D0D0224C528D004B731C /* homeranim.png in CopyFiles */,
+				4AA7D0D1224C528D004B731C /* spriteAnim.frag in CopyFiles */,
+				4AA7D0D2224C528D004B731C /* spriteAnim.vert in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4AF4FC7E222EA8B70006A9DF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				4AA7D0D3224C52FE004B731C /* homeranim.png in CopyFiles */,
+				4AA7D0D4224C52FE004B731C /* spriteAnim.frag in CopyFiles */,
+				4AA7D0D5224C52FE004B731C /* spriteAnim.vert in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -169,7 +201,7 @@
 		4AF4FC90222EA9450006A9DF /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		4AF4FC91222EA9460006A9DF /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		4AF4FC92222EA9460006A9DF /* spriteAnim.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = spriteAnim.frag; sourceTree = "<group>"; };
-		4AF4FC93222EA9470006A9DF /* homeranim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeranim.png; path = ../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson05/homeranim.png; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF4FC93222EA9470006A9DF /* homeranim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeranim.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

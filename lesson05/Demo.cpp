@@ -125,7 +125,7 @@ void Demo::DrawPlayerSprite() {
 
 void Demo::BuildPlayerSprite()
 {
-	this->program = BuildShader("../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson05/spriteAnim.vert", "../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson05/spriteAnim.frag");
+	this->program = BuildShader("spriteAnim.vert", "spriteAnim.frag");
 
 	// Pass n to shader
 	GLint location = glGetUniformLocation(this->program, "n");
@@ -142,9 +142,9 @@ void Demo::BuildPlayerSprite()
 
 	// Load, create texture 
 	int width, height;
-//    unsigned char* image = SOIL_load_image("../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson05/homeranim.png", &width, &height, 0, SOIL_LOAD_RGBA);
+//    unsigned char* image = SOIL_load_image("homeranim.png", &width, &height, 0, SOIL_LOAD_RGBA);
     int nrChannel;
-    unsigned char* image = stbi_load("../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson05/homeranim.png", &width, &height, &nrChannel, 0);
+    unsigned char* image = stbi_load("homeranim.png", &width, &height, &nrChannel, 0);
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
 //    SOIL_free_image_data(image);
     stbi_image_free(image);
