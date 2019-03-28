@@ -5,6 +5,8 @@ The original project given from the lecturer is written using Visual Studio and 
 
 I rewrite the project in Xcode as I'm using mac OS for the development. Another thing to state is that because some dependencies are incompatible for mac OS, I substitute them to similar ones.
 
+Please note that the previous version of this project used glm 0.9.9.3. However, I updated them to 0.9.9.4, if you use the earlier version of the project (or currently using glm 0.9.9.3), please update your glm version through HomeBrew or see the install specific version below.
+
 Dependencies:
  - glm 0.9.9.4
  - SDL2
