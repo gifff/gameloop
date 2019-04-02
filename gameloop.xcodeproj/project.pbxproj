@@ -73,6 +73,11 @@
 		4AC25F81225355C2007C210E /* shader.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6822534C1A007C210E /* shader.frag */; };
 		4AC25F82225355C2007C210E /* shader.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6F22534C1B007C210E /* shader.vert */; };
 		4AC25F84225356B6007C210E /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC25F83225356B6007C210E /* libfreetype.a */; };
+		4AC25F9422536271007C210E /* Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC25F9022536270007C210E /* Demo.cpp */; };
+		4AC25F9522536271007C210E /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC25F9122536271007C210E /* Game.cpp */; };
+		4AC25F962253629D007C210E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8856512203466C0079E904 /* OpenGL.framework */; };
+		4AC25F97225362A9007C210E /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885653220346A60079E904 /* libGLEW.a */; };
+		4AC25F98225362B3007C210E /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885642220339E60079E904 /* SDL2.framework */; };
 		4AF4FC4E222E52360006A9DF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8856512203466C0079E904 /* OpenGL.framework */; };
 		4AF4FC4F222E52610006A9DF /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885653220346A60079E904 /* libGLEW.a */; };
 		4AF4FC50222E52700006A9DF /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885642220339E60079E904 /* SDL2.framework */; };
@@ -162,6 +167,15 @@
 				4AC25F82225355C2007C210E /* shader.vert in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC25F872253623B007C210E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		4AF4FC45222E520E0006A9DF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -265,6 +279,11 @@
 		4AC25F7222534C31007C210E /* stb_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
 		4AC25F7322534C31007C210E /* stb_image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stb_image.hpp; sourceTree = "<group>"; };
 		4AC25F83225356B6007C210E /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../../../../../../../usr/local/Cellar/freetype/2.10.0/lib/libfreetype.a; sourceTree = "<group>"; };
+		4AC25F892253623B007C210E /* lesson01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lesson01; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC25F9022536270007C210E /* Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Demo.cpp; sourceTree = "<group>"; };
+		4AC25F9122536271007C210E /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		4AC25F9222536271007C210E /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		4AC25F9322536271007C210E /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		4AF4FC47222E520E0006A9DF /* lesson03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lesson03; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4FC51222E52B40006A9DF /* spriteAnim.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = spriteAnim.frag; path = ../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson03/spriteAnim.frag; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4FC52222E52B40006A9DF /* spriteAnim.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = spriteAnim.vert; path = ../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson03/spriteAnim.vert; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -352,6 +371,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4AC25F862253623B007C210E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC25F98225362B3007C210E /* SDL2.framework in Frameworks */,
+				4AC25F97225362A9007C210E /* libGLEW.a in Frameworks */,
+				4AC25F962253629D007C210E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF4FC44222E520E0006A9DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,6 +434,7 @@
 			isa = PBXGroup;
 			children = (
 				4A885635220334270079E904 /* gameloop */,
+				4AC25F8A2253623C007C210E /* lesson01 */,
 				4A0562B8222526D5005FBB1A /* lesson02b */,
 				4AF4FC48222E520E0006A9DF /* lesson03 */,
 				4AF4FC67222E62510006A9DF /* lesson04 */,
@@ -428,6 +458,7 @@
 				4AAB7D142249FF9600C4AB77 /* lesson06 */,
 				4AC25F38225341EC007C210E /* lesson07 */,
 				4AC25F5B22534BDE007C210E /* lesson08 */,
+				4AC25F892253623B007C210E /* lesson01 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -513,6 +544,17 @@
 				4AC25F6F22534C1B007C210E /* shader.vert */,
 			);
 			path = lesson08;
+			sourceTree = "<group>";
+		};
+		4AC25F8A2253623C007C210E /* lesson01 */ = {
+			isa = PBXGroup;
+			children = (
+				4AC25F9022536270007C210E /* Demo.cpp */,
+				4AC25F9222536271007C210E /* Demo.h */,
+				4AC25F9122536271007C210E /* Game.cpp */,
+				4AC25F9322536271007C210E /* Game.h */,
+			);
+			path = lesson01;
 			sourceTree = "<group>";
 		};
 		4AF4FC48222E520E0006A9DF /* lesson03 */ = {
@@ -652,6 +694,23 @@
 			productReference = 4AC25F5B22534BDE007C210E /* lesson08 */;
 			productType = "com.apple.product-type.tool";
 		};
+		4AC25F882253623B007C210E /* lesson01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC25F8D2253623C007C210E /* Build configuration list for PBXNativeTarget "lesson01" */;
+			buildPhases = (
+				4AC25F852253623B007C210E /* Sources */,
+				4AC25F862253623B007C210E /* Frameworks */,
+				4AC25F872253623B007C210E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lesson01;
+			productName = lesson01;
+			productReference = 4AC25F892253623B007C210E /* lesson01 */;
+			productType = "com.apple.product-type.tool";
+		};
 		4AF4FC46222E520E0006A9DF /* lesson03 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AF4FC4B222E520E0006A9DF /* Build configuration list for PBXNativeTarget "lesson03" */;
@@ -727,6 +786,9 @@
 					4AC25F5A22534BDE007C210E = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					4AC25F882253623B007C210E = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					4AF4FC46222E520E0006A9DF = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -751,6 +813,7 @@
 			projectRoot = "";
 			targets = (
 				4A885632220334270079E904 /* gameloop */,
+				4AC25F882253623B007C210E /* lesson01 */,
 				4A0562B6222526D5005FBB1A /* lesson02b */,
 				4AF4FC46222E520E0006A9DF /* lesson03 */,
 				4AF4FC65222E62510006A9DF /* lesson04 */,
@@ -809,6 +872,15 @@
 				4AC25F7422534C31007C210E /* stb_image.cpp in Sources */,
 				4AC25F7122534C1B007C210E /* Demo.cpp in Sources */,
 				4AC25F7022534C1B007C210E /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC25F852253623B007C210E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC25F9422536271007C210E /* Demo.cpp in Sources */,
+				4AC25F9522536271007C210E /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1158,6 +1230,40 @@
 			};
 			name = Release;
 		};
+		4AC25F8E2253623C007C210E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/glew/2.1.0/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AC25F8F2253623C007C210E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/glew/2.1.0/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4AF4FC4C222E520E0006A9DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1331,6 +1437,15 @@
 			buildConfigurations = (
 				4AC25F6022534BDE007C210E /* Debug */,
 				4AC25F6122534BDE007C210E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC25F8D2253623C007C210E /* Build configuration list for PBXNativeTarget "lesson01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC25F8E2253623C007C210E /* Debug */,
+				4AC25F8F2253623C007C210E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
