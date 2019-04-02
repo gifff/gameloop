@@ -31,7 +31,7 @@ Please find the download file under **Development Libraries** section.
 
 Then follow the ReadMe.txt.
 
-## Installing SDL2 Mixer
+### Installing SDL2 Mixer
 
 SDL2 Mixer is required for lesson 07.
 
