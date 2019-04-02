@@ -43,6 +43,18 @@
 		4AAB7D282249FFFD00C4AB77 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885642220339E60079E904 /* SDL2.framework */; };
 		4AAB7D29224A001100C4AB77 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885653220346A60079E904 /* libGLEW.a */; };
 		4AAB7D2C224A009800C4AB77 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB7D2A224A009800C4AB77 /* stb_image.cpp */; };
+		4AC25F3F225342DE007C210E /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885642220339E60079E904 /* SDL2.framework */; };
+		4AC25F402253437F007C210E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8856512203466C0079E904 /* OpenGL.framework */; };
+		4AC25F41225345C2007C210E /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885653220346A60079E904 /* libGLEW.a */; };
+		4AC25F4B22534636007C210E /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC25F4722534635007C210E /* Game.cpp */; };
+		4AC25F4C22534636007C210E /* Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC25F4922534635007C210E /* Demo.cpp */; };
+		4AC25F4D22534659007C210E /* bensound-funkyelement.ogg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F4222534635007C210E /* bensound-funkyelement.ogg */; };
+		4AC25F4E22534659007C210E /* grsites.com_whirls.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F4322534635007C210E /* grsites.com_whirls.wav */; };
+		4AC25F4F22534659007C210E /* info.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F4422534635007C210E /* info.png */; };
+		4AC25F5022534659007C210E /* infoSprite.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F4522534635007C210E /* infoSprite.frag */; };
+		4AC25F5122534659007C210E /* infoSprite.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F4822534635007C210E /* infoSprite.vert */; };
+		4AC25F5422534785007C210E /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC25F5222534785007C210E /* stb_image.cpp */; };
+		4AC25F56225349AE007C210E /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC25F55225349AE007C210E /* SDL2_mixer.framework */; };
 		4AF4FC4E222E52360006A9DF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8856512203466C0079E904 /* OpenGL.framework */; };
 		4AF4FC4F222E52610006A9DF /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885653220346A60079E904 /* libGLEW.a */; };
 		4AF4FC50222E52700006A9DF /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885642220339E60079E904 /* SDL2.framework */; };
@@ -97,6 +109,20 @@
 				4AA7D0D9224C5395004B731C /* homeranim.png in CopyFiles */,
 				4AA7D0DA224C5395004B731C /* playerSprite.frag in CopyFiles */,
 				4AA7D0DB224C5395004B731C /* playerSprite.vert in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC25F36225341EC007C210E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				4AC25F4D22534659007C210E /* bensound-funkyelement.ogg in CopyFiles */,
+				4AC25F4E22534659007C210E /* grsites.com_whirls.wav in CopyFiles */,
+				4AC25F4F22534659007C210E /* info.png in CopyFiles */,
+				4AC25F5022534659007C210E /* infoSprite.frag in CopyFiles */,
+				4AC25F5122534659007C210E /* infoSprite.vert in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +197,19 @@
 		4AAB7D242249FFC600C4AB77 /* Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = Demo.cpp; sourceTree = "<group>"; };
 		4AAB7D2A224A009800C4AB77 /* stb_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
 		4AAB7D2B224A009800C4AB77 /* stb_image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stb_image.hpp; sourceTree = "<group>"; };
+		4AC25F38225341EC007C210E /* lesson07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lesson07; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC25F4222534635007C210E /* bensound-funkyelement.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bensound-funkyelement.ogg"; sourceTree = "<group>"; };
+		4AC25F4322534635007C210E /* grsites.com_whirls.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = grsites.com_whirls.wav; sourceTree = "<group>"; };
+		4AC25F4422534635007C210E /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		4AC25F4522534635007C210E /* infoSprite.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = infoSprite.frag; sourceTree = "<group>"; };
+		4AC25F4622534635007C210E /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		4AC25F4722534635007C210E /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		4AC25F4822534635007C210E /* infoSprite.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = infoSprite.vert; sourceTree = "<group>"; };
+		4AC25F4922534635007C210E /* Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Demo.cpp; sourceTree = "<group>"; };
+		4AC25F4A22534635007C210E /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		4AC25F5222534785007C210E /* stb_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
+		4AC25F5322534785007C210E /* stb_image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stb_image.hpp; sourceTree = "<group>"; };
+		4AC25F55225349AE007C210E /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
 		4AF4FC47222E520E0006A9DF /* lesson03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lesson03; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4FC51222E52B40006A9DF /* spriteAnim.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = spriteAnim.frag; path = ../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson03/spriteAnim.frag; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4FC52222E52B40006A9DF /* spriteAnim.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = spriteAnim.vert; path = ../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson03/spriteAnim.vert; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,6 +274,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4AC25F35225341EC007C210E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC25F56225349AE007C210E /* SDL2_mixer.framework in Frameworks */,
+				4AC25F41225345C2007C210E /* libGLEW.a in Frameworks */,
+				4AC25F402253437F007C210E /* OpenGL.framework in Frameworks */,
+				4AC25F3F225342DE007C210E /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF4FC44222E520E0006A9DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,6 +343,7 @@
 				4AF4FC67222E62510006A9DF /* lesson04 */,
 				4AF4FC81222EA8B70006A9DF /* lesson05 */,
 				4AAB7D152249FF9600C4AB77 /* lesson06 */,
+				4AC25F39225341EC007C210E /* lesson07 */,
 				4A885634220334270079E904 /* Products */,
 				4A885641220339E50079E904 /* Frameworks */,
 			);
@@ -307,6 +358,7 @@
 				4AF4FC66222E62510006A9DF /* lesson04 */,
 				4AF4FC80222EA8B70006A9DF /* lesson05 */,
 				4AAB7D142249FF9600C4AB77 /* lesson06 */,
+				4AC25F38225341EC007C210E /* lesson07 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -325,6 +377,7 @@
 		4A885641220339E50079E904 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4AC25F55225349AE007C210E /* SDL2_mixer.framework */,
 				4A885653220346A60079E904 /* libGLEW.a */,
 				4A8856512203466C0079E904 /* OpenGL.framework */,
 				4A885642220339E60079E904 /* SDL2.framework */,
@@ -349,6 +402,24 @@
 				4AAB7D1C2249FFC500C4AB77 /* playerSprite.vert */,
 			);
 			path = lesson06;
+			sourceTree = "<group>";
+		};
+		4AC25F39225341EC007C210E /* lesson07 */ = {
+			isa = PBXGroup;
+			children = (
+				4AC25F5222534785007C210E /* stb_image.cpp */,
+				4AC25F5322534785007C210E /* stb_image.hpp */,
+				4AC25F4222534635007C210E /* bensound-funkyelement.ogg */,
+				4AC25F4922534635007C210E /* Demo.cpp */,
+				4AC25F4622534635007C210E /* Demo.h */,
+				4AC25F4722534635007C210E /* Game.cpp */,
+				4AC25F4A22534635007C210E /* Game.h */,
+				4AC25F4322534635007C210E /* grsites.com_whirls.wav */,
+				4AC25F4422534635007C210E /* info.png */,
+				4AC25F4522534635007C210E /* infoSprite.frag */,
+				4AC25F4822534635007C210E /* infoSprite.vert */,
+			);
+			path = lesson07;
 			sourceTree = "<group>";
 		};
 		4AF4FC48222E520E0006A9DF /* lesson03 */ = {
@@ -454,6 +525,23 @@
 			productReference = 4AAB7D142249FF9600C4AB77 /* lesson06 */;
 			productType = "com.apple.product-type.tool";
 		};
+		4AC25F37225341EC007C210E /* lesson07 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC25F3E225341EC007C210E /* Build configuration list for PBXNativeTarget "lesson07" */;
+			buildPhases = (
+				4AC25F34225341EC007C210E /* Sources */,
+				4AC25F35225341EC007C210E /* Frameworks */,
+				4AC25F36225341EC007C210E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lesson07;
+			productName = lesson07;
+			productReference = 4AC25F38225341EC007C210E /* lesson07 */;
+			productType = "com.apple.product-type.tool";
+		};
 		4AF4FC46222E520E0006A9DF /* lesson03 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AF4FC4B222E520E0006A9DF /* Build configuration list for PBXNativeTarget "lesson03" */;
@@ -523,6 +611,9 @@
 					4AAB7D132249FF9600C4AB77 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					4AC25F37225341EC007C210E = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					4AF4FC46222E520E0006A9DF = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -552,6 +643,7 @@
 				4AF4FC65222E62510006A9DF /* lesson04 */,
 				4AF4FC7F222EA8B70006A9DF /* lesson05 */,
 				4AAB7D132249FF9600C4AB77 /* lesson06 */,
+				4AC25F37225341EC007C210E /* lesson07 */,
 			);
 		};
 /* End PBXProject section */
@@ -583,6 +675,16 @@
 				4AAB7D2C224A009800C4AB77 /* stb_image.cpp in Sources */,
 				4AAB7D262249FFC600C4AB77 /* Demo.cpp in Sources */,
 				4AAB7D252249FFC600C4AB77 /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC25F34225341EC007C210E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC25F5422534785007C210E /* stb_image.cpp in Sources */,
+				4AC25F4C22534636007C210E /* Demo.cpp in Sources */,
+				4AC25F4B22534636007C210E /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,6 +950,46 @@
 			};
 			name = Release;
 		};
+		4AC25F3C225341EC007C210E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glm/0.9.9.4/include,
+					/usr/local/Cellar/glew/2.1.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AC25F3D225341EC007C210E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glm/0.9.9.4/include,
+					/usr/local/Cellar/glew/2.1.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4AF4FC4C222E520E0006A9DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1003,6 +1145,15 @@
 			buildConfigurations = (
 				4AAB7D182249FF9600C4AB77 /* Debug */,
 				4AAB7D192249FF9600C4AB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC25F3E225341EC007C210E /* Build configuration list for PBXNativeTarget "lesson07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC25F3C225341EC007C210E /* Debug */,
+				4AC25F3D225341EC007C210E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
