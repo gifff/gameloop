@@ -211,7 +211,7 @@ void Demo::InitButton() {
 		// Load, create texture 
 		int width, height;
         int nrChannels;
-        unsigned char* image = stbi_load(buttons[i].c_str(), &width, &height, &nrChannels, 0);
+        unsigned char* image = stbi_load(buttons[i].c_str(), &width, &height, &nrChannels, STBI_rgb_alpha);
 //        unsigned char* image = SOIL_load_image(buttons[i].c_str(), &width, &height, 0, SOIL_LOAD_RGBA);
 		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
         stbi_image_free(image);
@@ -231,7 +231,7 @@ void Demo::InitButton() {
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
-        image = stbi_load(hover_buttons[i].c_str(), &width, &height, &nrChannels, 0);
+        image = stbi_load(hover_buttons[i].c_str(), &width, &height, &nrChannels, STBI_rgb_alpha);
 //        image = SOIL_load_image(hover_buttons[i].c_str(), &width, &height, 0, SOIL_LOAD_RGBA);
 		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
         stbi_image_free(image);
@@ -281,7 +281,7 @@ void Demo::RenderButton() {
 		glBindTexture(GL_TEXTURE_2D, (activeButtonIndex == i) ? hover_texture[i] : texture[i]);
 		glUniform1i(glGetUniformLocation(this->program, "ourTexture"), i + 1);
 
-		mat4 model = mat4(1.0);
+		mat4 model = mat4(1.0f);
 		model = translate(model, vec3((GetScreenWidth() - button_width[i]) / 2, (i + 1) * 100, 0.0f));
 		model = scale(model, vec3(button_width[i], button_height[i], 1));
 		glUniformMatrix4fv(glGetUniformLocation(this->program, "model"), 1, GL_FALSE, value_ptr(model));
