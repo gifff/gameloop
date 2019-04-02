@@ -55,6 +55,24 @@
 		4AC25F5122534659007C210E /* infoSprite.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F4822534635007C210E /* infoSprite.vert */; };
 		4AC25F5422534785007C210E /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC25F5222534785007C210E /* stb_image.cpp */; };
 		4AC25F56225349AE007C210E /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC25F55225349AE007C210E /* SDL2_mixer.framework */; };
+		4AC25F7022534C1B007C210E /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC25F6522534C1A007C210E /* Game.cpp */; };
+		4AC25F7122534C1B007C210E /* Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC25F6E22534C1B007C210E /* Demo.cpp */; };
+		4AC25F7422534C31007C210E /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC25F7222534C31007C210E /* stb_image.cpp */; };
+		4AC25F7522534C3C007C210E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8856512203466C0079E904 /* OpenGL.framework */; };
+		4AC25F7622534C45007C210E /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC25F55225349AE007C210E /* SDL2_mixer.framework */; };
+		4AC25F7722534C45007C210E /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885642220339E60079E904 /* SDL2.framework */; };
+		4AC25F7822534C55007C210E /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885653220346A60079E904 /* libGLEW.a */; };
+		4AC25F79225355C2007C210E /* button_halt_hover.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6C22534C1A007C210E /* button_halt_hover.png */; };
+		4AC25F7A225355C2007C210E /* button_halt.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6422534C19007C210E /* button_halt.png */; };
+		4AC25F7B225355C2007C210E /* button_opt_hover.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6722534C1A007C210E /* button_opt_hover.png */; };
+		4AC25F7C225355C2007C210E /* button_opt.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6B22534C1A007C210E /* button_opt.png */; };
+		4AC25F7D225355C2007C210E /* button_play_hover.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6A22534C1A007C210E /* button_play_hover.png */; };
+		4AC25F7E225355C2007C210E /* button_play.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6322534C19007C210E /* button_play.png */; };
+		4AC25F7F225355C2007C210E /* button.psd in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6922534C1A007C210E /* button.psd */; };
+		4AC25F80225355C2007C210E /* hongkonghustle.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6222534C19007C210E /* hongkonghustle.ttf */; };
+		4AC25F81225355C2007C210E /* shader.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6822534C1A007C210E /* shader.frag */; };
+		4AC25F82225355C2007C210E /* shader.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AC25F6F22534C1B007C210E /* shader.vert */; };
+		4AC25F84225356B6007C210E /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC25F83225356B6007C210E /* libfreetype.a */; };
 		4AF4FC4E222E52360006A9DF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8856512203466C0079E904 /* OpenGL.framework */; };
 		4AF4FC4F222E52610006A9DF /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885653220346A60079E904 /* libGLEW.a */; };
 		4AF4FC50222E52700006A9DF /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A885642220339E60079E904 /* SDL2.framework */; };
@@ -123,6 +141,25 @@
 				4AC25F4F22534659007C210E /* info.png in CopyFiles */,
 				4AC25F5022534659007C210E /* infoSprite.frag in CopyFiles */,
 				4AC25F5122534659007C210E /* infoSprite.vert in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC25F5922534BDE007C210E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				4AC25F79225355C2007C210E /* button_halt_hover.png in CopyFiles */,
+				4AC25F7A225355C2007C210E /* button_halt.png in CopyFiles */,
+				4AC25F7B225355C2007C210E /* button_opt_hover.png in CopyFiles */,
+				4AC25F7C225355C2007C210E /* button_opt.png in CopyFiles */,
+				4AC25F7D225355C2007C210E /* button_play_hover.png in CopyFiles */,
+				4AC25F7E225355C2007C210E /* button_play.png in CopyFiles */,
+				4AC25F7F225355C2007C210E /* button.psd in CopyFiles */,
+				4AC25F80225355C2007C210E /* hongkonghustle.ttf in CopyFiles */,
+				4AC25F81225355C2007C210E /* shader.frag in CopyFiles */,
+				4AC25F82225355C2007C210E /* shader.vert in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +247,24 @@
 		4AC25F5222534785007C210E /* stb_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
 		4AC25F5322534785007C210E /* stb_image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stb_image.hpp; sourceTree = "<group>"; };
 		4AC25F55225349AE007C210E /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
+		4AC25F5B22534BDE007C210E /* lesson08 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lesson08; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC25F6222534C19007C210E /* hongkonghustle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hongkonghustle.ttf; sourceTree = "<group>"; };
+		4AC25F6322534C19007C210E /* button_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_play.png; sourceTree = "<group>"; };
+		4AC25F6422534C19007C210E /* button_halt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_halt.png; sourceTree = "<group>"; };
+		4AC25F6522534C1A007C210E /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		4AC25F6622534C1A007C210E /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		4AC25F6722534C1A007C210E /* button_opt_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_opt_hover.png; sourceTree = "<group>"; };
+		4AC25F6822534C1A007C210E /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
+		4AC25F6922534C1A007C210E /* button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.psd; sourceTree = "<group>"; };
+		4AC25F6A22534C1A007C210E /* button_play_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_play_hover.png; sourceTree = "<group>"; };
+		4AC25F6B22534C1A007C210E /* button_opt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_opt.png; sourceTree = "<group>"; };
+		4AC25F6C22534C1A007C210E /* button_halt_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_halt_hover.png; sourceTree = "<group>"; };
+		4AC25F6D22534C1A007C210E /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		4AC25F6E22534C1B007C210E /* Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Demo.cpp; sourceTree = "<group>"; };
+		4AC25F6F22534C1B007C210E /* shader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.vert; sourceTree = "<group>"; };
+		4AC25F7222534C31007C210E /* stb_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
+		4AC25F7322534C31007C210E /* stb_image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stb_image.hpp; sourceTree = "<group>"; };
+		4AC25F83225356B6007C210E /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../../../../../../../usr/local/Cellar/freetype/2.10.0/lib/libfreetype.a; sourceTree = "<group>"; };
 		4AF4FC47222E520E0006A9DF /* lesson03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lesson03; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4FC51222E52B40006A9DF /* spriteAnim.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = spriteAnim.frag; path = ../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson03/spriteAnim.frag; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4FC52222E52B40006A9DF /* spriteAnim.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = spriteAnim.vert; path = ../../../../../../../../Documents/Semester_6/PG/GameLoop/gameloop/lesson03/spriteAnim.vert; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,6 +340,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4AC25F5822534BDE007C210E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC25F84225356B6007C210E /* libfreetype.a in Frameworks */,
+				4AC25F7822534C55007C210E /* libGLEW.a in Frameworks */,
+				4AC25F7622534C45007C210E /* SDL2_mixer.framework in Frameworks */,
+				4AC25F7722534C45007C210E /* SDL2.framework in Frameworks */,
+				4AC25F7522534C3C007C210E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF4FC44222E520E0006A9DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,6 +411,7 @@
 				4AF4FC81222EA8B70006A9DF /* lesson05 */,
 				4AAB7D152249FF9600C4AB77 /* lesson06 */,
 				4AC25F39225341EC007C210E /* lesson07 */,
+				4AC25F5C22534BDE007C210E /* lesson08 */,
 				4A885634220334270079E904 /* Products */,
 				4A885641220339E50079E904 /* Frameworks */,
 			);
@@ -359,6 +427,7 @@
 				4AF4FC80222EA8B70006A9DF /* lesson05 */,
 				4AAB7D142249FF9600C4AB77 /* lesson06 */,
 				4AC25F38225341EC007C210E /* lesson07 */,
+				4AC25F5B22534BDE007C210E /* lesson08 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -377,6 +446,7 @@
 		4A885641220339E50079E904 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4AC25F83225356B6007C210E /* libfreetype.a */,
 				4AC25F55225349AE007C210E /* SDL2_mixer.framework */,
 				4A885653220346A60079E904 /* libGLEW.a */,
 				4A8856512203466C0079E904 /* OpenGL.framework */,
@@ -420,6 +490,29 @@
 				4AC25F4822534635007C210E /* infoSprite.vert */,
 			);
 			path = lesson07;
+			sourceTree = "<group>";
+		};
+		4AC25F5C22534BDE007C210E /* lesson08 */ = {
+			isa = PBXGroup;
+			children = (
+				4AC25F7222534C31007C210E /* stb_image.cpp */,
+				4AC25F7322534C31007C210E /* stb_image.hpp */,
+				4AC25F6C22534C1A007C210E /* button_halt_hover.png */,
+				4AC25F6422534C19007C210E /* button_halt.png */,
+				4AC25F6722534C1A007C210E /* button_opt_hover.png */,
+				4AC25F6B22534C1A007C210E /* button_opt.png */,
+				4AC25F6A22534C1A007C210E /* button_play_hover.png */,
+				4AC25F6322534C19007C210E /* button_play.png */,
+				4AC25F6922534C1A007C210E /* button.psd */,
+				4AC25F6E22534C1B007C210E /* Demo.cpp */,
+				4AC25F6D22534C1A007C210E /* Demo.h */,
+				4AC25F6522534C1A007C210E /* Game.cpp */,
+				4AC25F6622534C1A007C210E /* Game.h */,
+				4AC25F6222534C19007C210E /* hongkonghustle.ttf */,
+				4AC25F6822534C1A007C210E /* shader.frag */,
+				4AC25F6F22534C1B007C210E /* shader.vert */,
+			);
+			path = lesson08;
 			sourceTree = "<group>";
 		};
 		4AF4FC48222E520E0006A9DF /* lesson03 */ = {
@@ -542,6 +635,23 @@
 			productReference = 4AC25F38225341EC007C210E /* lesson07 */;
 			productType = "com.apple.product-type.tool";
 		};
+		4AC25F5A22534BDE007C210E /* lesson08 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC25F5F22534BDE007C210E /* Build configuration list for PBXNativeTarget "lesson08" */;
+			buildPhases = (
+				4AC25F5722534BDE007C210E /* Sources */,
+				4AC25F5822534BDE007C210E /* Frameworks */,
+				4AC25F5922534BDE007C210E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lesson08;
+			productName = lesson08;
+			productReference = 4AC25F5B22534BDE007C210E /* lesson08 */;
+			productType = "com.apple.product-type.tool";
+		};
 		4AF4FC46222E520E0006A9DF /* lesson03 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AF4FC4B222E520E0006A9DF /* Build configuration list for PBXNativeTarget "lesson03" */;
@@ -614,6 +724,9 @@
 					4AC25F37225341EC007C210E = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					4AC25F5A22534BDE007C210E = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					4AF4FC46222E520E0006A9DF = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -644,6 +757,7 @@
 				4AF4FC7F222EA8B70006A9DF /* lesson05 */,
 				4AAB7D132249FF9600C4AB77 /* lesson06 */,
 				4AC25F37225341EC007C210E /* lesson07 */,
+				4AC25F5A22534BDE007C210E /* lesson08 */,
 			);
 		};
 /* End PBXProject section */
@@ -685,6 +799,16 @@
 				4AC25F5422534785007C210E /* stb_image.cpp in Sources */,
 				4AC25F4C22534636007C210E /* Demo.cpp in Sources */,
 				4AC25F4B22534636007C210E /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC25F5722534BDE007C210E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC25F7422534C31007C210E /* stb_image.cpp in Sources */,
+				4AC25F7122534C1B007C210E /* Demo.cpp in Sources */,
+				4AC25F7022534C1B007C210E /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -990,6 +1114,50 @@
 			};
 			name = Release;
 		};
+		4AC25F6022534BDE007C210E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glm/0.9.9.4/include,
+					/usr/local/Cellar/glew/2.1.0/include,
+					/usr/local/Cellar/freetype/2.10.0/include/freetype2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+					/usr/local/Cellar/freetype/2.10.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AC25F6122534BDE007C210E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glm/0.9.9.4/include,
+					/usr/local/Cellar/glew/2.1.0/include,
+					/usr/local/Cellar/freetype/2.10.0/include/freetype2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+					/usr/local/Cellar/freetype/2.10.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4AF4FC4C222E520E0006A9DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1154,6 +1322,15 @@
 			buildConfigurations = (
 				4AC25F3C225341EC007C210E /* Debug */,
 				4AC25F3D225341EC007C210E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC25F5F22534BDE007C210E /* Build configuration list for PBXNativeTarget "lesson08" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC25F6022534BDE007C210E /* Debug */,
+				4AC25F6122534BDE007C210E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
