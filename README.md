@@ -10,6 +10,7 @@ Please note that the previous version of this project used glm 0.9.9.3. However,
 Dependencies:
  - glm 0.9.9.4
  - SDL2
+ - SDL2 Mixer (for lesson07)
  - glew 2.1.0
  
  Substitutes:
@@ -22,7 +23,20 @@ Dependencies:
 Please download from the official site here:
 [https://www.libsdl.org/download-2.0.php](https://www.libsdl.org/download-2.0.php)
 
-Please find the download file under Development Libraries section.
+Please find the download file under **Development Libraries** section.
+
+Then follow the ReadMe.txt.
+
+## Installing SDL2 Mixer
+
+SDL2 Mixer is required for lesson 07.
+
+Please download from the official site here:
+[https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/)
+
+Please find the download file under **Development Libraries** section.
+
+Then follow the ReadMe.txt.
 
 ### Installing GLEW and glm
 
