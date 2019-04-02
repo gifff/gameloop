@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A0562A32225164F005FBB1A"
-               BuildableName = "lesson02"
-               BlueprintName = "lesson02"
+               BlueprintIdentifier = "4A0562B6222526D5005FBB1A"
+               BuildableName = "lesson02b"
+               BlueprintName = "lesson02b"
                ReferencedContainer = "container:gameloop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A0562A32225164F005FBB1A"
-            BuildableName = "lesson02"
-            BlueprintName = "lesson02"
+            BlueprintIdentifier = "4A0562B6222526D5005FBB1A"
+            BuildableName = "lesson02b"
+            BlueprintName = "lesson02b"
             ReferencedContainer = "container:gameloop.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A0562A32225164F005FBB1A"
-            BuildableName = "lesson02"
-            BlueprintName = "lesson02"
+            BlueprintIdentifier = "4A0562B6222526D5005FBB1A"
+            BuildableName = "lesson02b"
+            BlueprintName = "lesson02b"
             ReferencedContainer = "container:gameloop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A0562A32225164F005FBB1A"
-            BuildableName = "lesson02"
-            BlueprintName = "lesson02"
+            BlueprintIdentifier = "4A0562B6222526D5005FBB1A"
+            BuildableName = "lesson02b"
+            BlueprintName = "lesson02b"
             ReferencedContainer = "container:gameloop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

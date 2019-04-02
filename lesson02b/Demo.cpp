@@ -79,8 +79,8 @@ void Demo::BuildPlayerSprite()
     // use stb_image instead of libSOIL
     int nrChannels;
     // flip the image (top-down)
-    stbi_set_flip_vertically_on_load(true);
-    unsigned char* image = stbi_load(fileName, &width, &height, &nrChannels, 0);
+//    stbi_set_flip_vertically_on_load(true);
+    unsigned char* image = stbi_load(fileName, &width, &height, &nrChannels, STBI_rgb_alpha);
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
     stbi_image_free(image);
     

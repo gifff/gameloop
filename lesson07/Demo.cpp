@@ -131,7 +131,7 @@ void Demo::BuildInfoSprite()
 	// Load, create texture 
 	int width, height;
     int nrChannels;
-    unsigned char* image = stbi_load("info.png", &width, &height, &nrChannels, 0);
+    unsigned char* image = stbi_load("info.png", &width, &height, &nrChannels, STBI_rgb_alpha);
 //    unsigned char* image = SOIL_load_image("info.png", &width, &height, 0, SOIL_LOAD_RGBA);
     
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);

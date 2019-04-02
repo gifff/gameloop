@@ -128,7 +128,7 @@ void Demo::BuildPlayerSprite()
 	// Load, create texture 
 	int width, height;
     int nrChannel;
-    unsigned char* image = stbi_load("homeranim.png", &width, &height, &nrChannel, 0);
+    unsigned char* image = stbi_load("homeranim.png", &width, &height, &nrChannel, STBI_rgb_alpha);
 //    unsigned char* image = SOIL_load_image("homeranim.png", &width, &height, 0, SOIL_LOAD_RGBA);
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
 //    SOIL_free_image_data(image);
@@ -215,7 +215,7 @@ void Demo::BuildCrateSprite()
 	// Load, create texture 
 	int width, height;
     int nrChannel;
-    unsigned char* image = stbi_load("crate.png", &width, &height, &nrChannel, 0);
+    unsigned char* image = stbi_load("crate.png", &width, &height, &nrChannel, STBI_rgb_alpha);
 //    unsigned char* image = SOIL_load_image("crate.png", &width, &height, 0, SOIL_LOAD_RGBA);
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
 //    SOIL_free_image_data(image);

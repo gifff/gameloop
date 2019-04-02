@@ -13,9 +13,9 @@ void main()
 	ourColor = color;
     // Not flipped:
     
-    TexCoord = vec2(texCoord.x, texCoord.y);
+//    TexCoord = vec2(texCoord.x, texCoord.y);
     
     // Original:
 	// We swap the y-axis by substracing our coordinates from 1. This is done because most images have the top y-axis inversed with OpenGL's top y-axis.
-//    TexCoord = vec2(texCoord.x, 1 - texCoord.y);
+    TexCoord = vec2(texCoord.x, 1 - texCoord.y);
 }
